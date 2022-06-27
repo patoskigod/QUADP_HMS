@@ -1,0 +1,15 @@
+Developed By QUADP
+Group Members: Patrick Ebong, Oluwatoyin Akinfaye, Gbadamosi Abubakar, Charles Udeh
+
+Instructions:
+Activate the virtual environment (virtual environment name: hospital): hospital\Scripts\activate  Note: replace with forward slash (/) if you are using MacOS
+If it is not seen create a virtual environment: python -m venv name of virtual environment
+    - Install the Requirements: pip install -r requirements.txt
+    - Make database migrations: python manage.py makemigrations
+    - python manage.py migrate
+  
+For Admin Account, create one with superuser
+- python manage.py createsuperuser
+- Run the application: python manage.py runserver
+
+

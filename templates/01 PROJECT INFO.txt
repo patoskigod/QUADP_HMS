@@ -1,0 +1,11 @@
+Developed By QUADP
+
+Instructions:
+- Install the Requirements: pip install -r requirements.txt
+- Make database migrations: python manage.py makemigrations
+- python manage.py migrate
+
+For Admin Account, create one with superuser
+- python manage.py createsuperuser
+
+- Run the application: python manage.py runserver
